@@ -55,12 +55,12 @@ export default function Home() {
             <footer className={styles.footer}>
                 Gracies a{':'} <br/>
                 <div>
-                    <a href='https://dinahosting.com'>
+                    <a href='https://dinahosting.com' target='_blank'>
                         <span className={styles.logo}>
                             <Image src="/images/dinahosting.png" alt="Logo DinaHosting" width={72} height={16} />
                         </span>
                     </a>
-                    <a href='https://wapps.cat'>
+                    <a href='https://wapps.cat' target='_blank'>
                         <span className={styles.logo}>
                             <Image src="/images/wapps.png" alt="Logo Wapps" width={72} height={16} />
                         </span>
