@@ -62,6 +62,10 @@ export default function Home() {
           <span className={styles.logo}>
             <Image src="/images/dinahosting.png" alt="Logo DinaHosting" width={72} height={16} />
           </span>
+          {' '}i{' '}
+          <span className={styles.logo}>
+            <Image src="/images/wapps.png" alt="Logo Wapps" width={72} height={16} />
+          </span>
         </a>
       </footer>
     </div>
