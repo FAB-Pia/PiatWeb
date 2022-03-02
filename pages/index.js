@@ -60,7 +60,7 @@ export default function Home() {
         >
           Gracies a{' '}
           <span className={styles.logo}>
-            <Image src="/dinahosting.png" alt="Logo DinaHosting" width={72} height={16} />
+            <Image src="/dinahosting.png" alt="Logo DinaHosting" />
           </span>
         </a>
       </footer>
