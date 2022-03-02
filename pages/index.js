@@ -58,9 +58,9 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Gracies a{' '}
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="/dinahosting.png" alt="Logo DinaHosting" width={72} height={16} />
           </span>
         </a>
       </footer>
