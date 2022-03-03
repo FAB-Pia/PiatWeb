@@ -26,7 +26,7 @@ export default function Home() {
                         <h2>Google &rarr;</h2>
                     </a>
                     <a href="https://nextjs.org/docs" className={styles.card}>
-                        <img src="/logos_serveis/kahoot.png" alt='Logo Google' height='100' width='100' />
+                        <img src="/logos_serveis/kahoot.png" alt='Logo Kahoot' height='100' width='100' />
                         <h2>Kahoot &rarr;</h2>
                     </a>
                 </div>
