@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../../styles/Kahoot.module.css'
 import Footer from "../components/footer";
+import Header from "../components/header";
 
 export default function Kahoot() {
     return (
@@ -13,6 +13,7 @@ export default function Kahoot() {
             </Head>
 
             <main className={styles.main}>
+                <Header/>
                 <h1 className={styles.title}>
                     Kahoot
                 </h1>
