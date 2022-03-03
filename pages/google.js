@@ -22,11 +22,11 @@ export default function Google() {
                 </h1>
 
                 <div className={styles.grid}>
-                    <div onClick='openInNewTab("example.com")' className={styles.card}>
+                    <div onClick={openInNewTab("example.com")} className={styles.card}>
                         <img src="/logos_serveis/sheets.png" alt='Logo Sheets' height='100' width='100' />
                         <h2>Sheets &rarr;</h2>
                     </div>
-                    <div onClick='openInNewTab("example.com")' className={styles.card}>
+                    <div onClick={openInNewTab("example.com")} className={styles.card}>
                         <img src="/logos_serveis/docs.png" alt='Logo Docs' height='70' width='70' />
                         <h2>Docs &rarr;</h2>
                     </div>
