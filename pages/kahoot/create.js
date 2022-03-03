@@ -22,7 +22,7 @@ const guide = {
         },
         {
             "type" : "image",
-            "location" : "images/kahoot/crear.png"
+            "location" : "/images/kahoot/crear.png"
         },
         {
             "type" : "text",
@@ -57,7 +57,7 @@ const guide = {
         },
         {
             "type" : "image",
-            "location" : "images/kahoot/crear2.png"
+            "location" : "/images/kahoot/crear2.png"
         },
         {
             "type" : "text",
