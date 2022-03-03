@@ -16,9 +16,7 @@ export default function Home() {
                     <span className={styles.text_color_blue}>Benvingut a </span><span className={styles.text_color_green}>Pia</span><span className={styles.text_color_blue}>&apos;t</span>
                 </h1>
 
-                <p className={styles.description}>
-                    Nota per el jurat de Wapps: Anavem amb una mica de pressa i vam decidir no fer la aplicació movil (de moment) per que no quedés tot a mitges.
-                </p>
+
 
                 <div className={styles.grid}>
                     <a href="google" className={styles.card}>
@@ -30,6 +28,9 @@ export default function Home() {
                         <h2>Kahoot &rarr;</h2>
                     </a>
                 </div>
+                <p className={styles.description}>
+                    Nota per el jurat de Wapps: Anavem amb una mica de pressa i vam decidir no fer la aplicació movil (de moment) per que no quedés tot a mitges.
+                </p>
             </main>
             <Footer/>
         </div>
