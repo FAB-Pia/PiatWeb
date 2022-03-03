@@ -4,11 +4,11 @@ import Image from "next/image";
 export default function Footer() {
     return(
         <footer className={styles.footer}>
-            <a width={88} href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' rel="noreferrer">
-                <span width={88}>
+            <span width={88}>
+                <a width={88} href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' rel="noreferrer">
                     <Image src='/images/Reconeixement-NoComercial-CompartirIgual.png' width={88} height={31} />
-                </span>
-            </a>
+                </a>
+            </span>
             &nbsp;&nbsp;&nbsp;&nbsp;
             Gracies a{':'} <br/>
             <div>
