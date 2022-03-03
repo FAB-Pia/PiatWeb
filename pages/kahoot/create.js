@@ -95,23 +95,24 @@ export default function KahootCreate() {
                 <h1 className={styles.title}>
                     {guide.title.text}
                 </h1>
-                <div id='guideContainer'></div>
-                {guide.body.forEach(item => {
-                    if (item.type === 'image') {
-                        guideHTML = guideHTML + "<Image src='" + item.location + " width='auto' height='auto' />"
-                    }
-
-                    if (item.type === 'text') {
-                        item.text.forEach(textie => {
-                            guideHTML = guideHTML + textie;
-                        });
-
-                        if (item.newline === 1) {
-                            guideHTML = guideHTML + "<br />"
+                <div id='guideContainer'>
+                    {guide.body.forEach(item => {
+                        if (item.type === 'image') {
+                            guideHTML = guideHTML + "<Image src='" + item.location + " width='auto' height='auto' />"
                         }
-                    }
-                })}
-                {document.onload = document.getElementById('guideContainer').innerHTML = guideHTML}
+
+                        if (item.type === 'text') {
+                            item.text.forEach(textie => {
+                                guideHTML = guideHTML + textie;
+                            });
+
+                            if (item.newline === 1) {
+                                guideHTML = guideHTML + "<br />"
+                            }
+                        }
+                    })}
+                    {this.innerHTML = guideHTML}
+                </div>
             </main>
 
             <Footer />
