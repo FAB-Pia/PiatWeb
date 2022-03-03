@@ -5,7 +5,7 @@ export default function Footer() {
     return(
         <footer className={styles.footer}>
             <Image src='/images/Reconeixement-NoComercial-CompartirIgual.png' width={130} height={32} />
-            {'     '}
+            <span width={30}/>
             Gracies a{':'} <br/>
             <div>
                 <a href='https://dinahosting.com' target='_blank' rel="noreferrer">
