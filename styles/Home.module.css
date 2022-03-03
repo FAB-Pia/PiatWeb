@@ -28,6 +28,19 @@
   flex-grow: 1;
 }
 
+.header {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.header a {
+  font-size: larger;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
