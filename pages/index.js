@@ -13,7 +13,7 @@ export default function Home() {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    Benvingut a <span className={styles.text_color_green}>Pia</span>&apos;t
+                    Benvingut a <span className={styles.text_color_green}>Pia</span>&apos;<span className={styles.text_color_blue}>t</span>
                 </h1>
 
                 <p className={styles.description}>
@@ -25,7 +25,7 @@ export default function Home() {
                         <img src="/logos_serveis/google.png" alt='Logo Google' height='100' width='100' />
                         <h2>Google &rarr;</h2>
                     </a>
-                    <a href="https://nextjs.org/docs" className={styles.card}>
+                    <a href="kahoot" className={styles.card}>
                         <img src="/logos_serveis/kahoot.png" alt='Logo Index' height='100' width='100' />
                         <h2>Index &rarr;</h2>
                     </a>
