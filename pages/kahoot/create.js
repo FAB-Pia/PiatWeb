@@ -92,7 +92,8 @@ export default function KahootCreate() {
 
             if (item.type === 'text') {
                 item.text.forEach(textie => {
-                    guideHTML = guideHTML + textie;
+                    textie = textie.split('%').join('"').split('&').join(':');
+                    guideHTML = guideHTML + textie + ' ';
                 });
 
                 if (item.newline === 1) {
