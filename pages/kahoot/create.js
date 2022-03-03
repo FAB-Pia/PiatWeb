@@ -2,6 +2,7 @@ import styles from "../../styles/Kahoot.module.css";
 import Head from "next/head";
 import Image from 'next/image'
 import Footer from "../components/footer";
+import {useEffect} from "react";
 
 const guide = {
     "title": {
@@ -83,6 +84,25 @@ const guide = {
 let guideHTML = "";
 
 export default function KahootCreate() {
+    useEffect(() => {
+        guide.body.forEach(item => {
+            if (item.type === 'image') {
+                guideHTML = guideHTML + "<Image src='" + item.location + " width='auto' height='auto' />"
+            }
+
+            if (item.type === 'text') {
+                item.text.forEach(textie => {
+                    guideHTML = guideHTML + textie;
+                });
+
+                if (item.newline === 1) {
+                    guideHTML = guideHTML + "<br />"
+                }
+            }
+        })
+        document.getElementById('guideContainer').innerHTML = guideHTML
+    }, []);
+
     return(
         <div className={styles.container}>
             <Head>
@@ -96,22 +116,6 @@ export default function KahootCreate() {
                     {guide.title.text}
                 </h1>
                 <div id='guideContainer'></div>
-                {guide.body.forEach(item => {
-                    if (item.type === 'image') {
-                        guideHTML = guideHTML + "<Image src='" + item.location + " width='auto' height='auto' />"
-                    }
-
-                    if (item.type === 'text') {
-                        item.text.forEach(textie => {
-                            guideHTML = guideHTML + textie;
-                        });
-
-                        if (item.newline === 1) {
-                            guideHTML = guideHTML + "<br />"
-                        }
-                    }
-                })}
-                {document.onload = () => {document.getElementById('guideContainer').innerHTML = guideHTML}}
 
             </main>
 
