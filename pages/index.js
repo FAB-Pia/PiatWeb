@@ -22,7 +22,7 @@ export default function Home() {
                 </p>
 
                 <div className={styles.grid}>
-                    <a href="/google" className={styles.card}>
+                    <a href="google" className={styles.card}>
                         <img src="/logos_serveis/google.png" alt='Logo Google' height='100' width='100' />
                         <h2>Google &rarr;</h2>
                     </a>
