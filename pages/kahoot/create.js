@@ -110,6 +110,7 @@ export default function KahootCreate() {
                         }
                     }
                 })}
+                {guideHTML}
             </main>
 
             <Footer />
