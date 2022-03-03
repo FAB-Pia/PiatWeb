@@ -23,7 +23,7 @@ export default function Home() {
 
                 <div className={styles.grid}>
                     <a href="https://nextjs.org/docs" className={styles.card}>
-                        <img src="/logos_serveis/google.png" alt='Logo Google' />
+                        <img src="/logos_serveis/google.png" alt='Logo Google' height='10' width='10' />
                         <h2>Google &rarr;</h2>
                     </a>
                     <a href="https://nextjs.org/docs" className={styles.card}>
