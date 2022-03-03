@@ -87,7 +87,7 @@ export default function KahootCreate() {
     useEffect(() => {
         guide.body.forEach(item => {
             if (item.type === 'image') {
-                guideHTML = guideHTML + "<Image src='" + item.location + "' width='auto' height='auto' />"
+                guideHTML = guideHTML + "<Image src='" + item.location + "' width='inherit - 10%' height='auto' />"
             }
 
             if (item.type === 'text') {
