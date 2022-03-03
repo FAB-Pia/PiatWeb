@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Footer() {
     return(
         <footer className={styles.footer}>
-            <Image src='/images/Reconeixement-NoComercial-CompartirIgual.png' width={130} height={32} />
-            &nbsp;&nbsp;
+            <Image src='/images/Reconeixement-NoComercial-CompartirIgual.png' width={88} height={31} />
+            &nbsp;&nbsp;&nbsp;&nbsp;
             Gracies a{':'} <br/>
             <div>
                 <a href='https://dinahosting.com' target='_blank' rel="noreferrer">
