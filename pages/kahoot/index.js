@@ -20,8 +20,8 @@ export default function Kahoot() {
                 <div className={styles.grid}>
                     <a href='kahoot/guide?id=devtest' rel="noreferrer">
                         <div className={styles.card}>
-                            <Image src="/logos_serveis/sheets.png" alt='Logo Sheets' height='100' width='100' />
-                            <h2>Sheets &rarr;</h2>
+                            <h2>Titol</h2>
+                            <h4>Descripció</h4>
                         </div>
                     </a>
                     <a href='google/docs' rel="noreferrer">
