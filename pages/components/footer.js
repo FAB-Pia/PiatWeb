@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Footer() {
     return(
         <footer className={styles.footer}>
-            <Image src='/images/Reconeixement-NoComercial-Compartigual.png' width={144} height={32} />
+            <Image src='/images/Reconeixement-NoComercial-CompartirIgual.png' width={144} height={32} />
             Gracies a{':'} <br/>
             <div>
                 <a href='https://dinahosting.com' target='_blank' rel="noreferrer">
