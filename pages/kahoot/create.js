@@ -1,6 +1,5 @@
 import styles from "../../styles/Kahoot.module.css";
 import Head from "next/head";
-import Image from 'next/image'
 import Footer from "../components/footer";
 import {useEffect} from "react";
 
@@ -96,7 +95,7 @@ export default function KahootCreate() {
                     guideHTML = guideHTML + textie + ' ';
                 });
 
-                if (item.newline === 1) {
+                for (var i = 0; item.newline < i; i++) {
                     guideHTML = guideHTML + "<br />"
                 }
             }
