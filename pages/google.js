@@ -17,13 +17,13 @@ export default function Google() {
                 </h1>
 
                 <div className={styles.grid}>
-                    <a href='https://example.com' target='_blank' rel="noreferrer">
+                    <a href='google/sheets' rel="noreferrer">
                         <div className={styles.card}>
                             <Image src="/logos_serveis/sheets.png" alt='Logo Sheets' height='100' width='100' />
                             <h2>Sheets &rarr;</h2>
                         </div>
                     </a>
-                    <a href='https://example.com' target='_blank' rel="noreferrer">
+                    <a href='google/docs' rel="noreferrer">
                         <div className={styles.card}>
                             <Image src="/logos_serveis/docs.png" alt='Logo Docs' height='100' width='80' />
                             <h2>Docs &rarr;</h2>
