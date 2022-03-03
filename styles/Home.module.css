@@ -114,3 +114,7 @@
     flex-direction: column;
   }
 }
+
+.text_color_green {
+  color: rgb(151, 215, 0);
+}
