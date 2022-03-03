@@ -5,7 +5,9 @@ export default function Footer() {
     return(
         <footer className={styles.footer}>
             <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' rel="noreferrer">
-                <Image src='/images/Reconeixement-NoComercial-CompartirIgual.png' width={88} height={31} />
+                <span>
+                    <Image src='/images/Reconeixement-NoComercial-CompartirIgual.png' width={88} height={31} />
+                </span>
             </a>
             &nbsp;&nbsp;&nbsp;&nbsp;
             Gracies a{':'} <br/>
