@@ -25,7 +25,7 @@ export default function Google() {
                     </a>
                     <a href='https://example.com' target='_blank' rel="noreferrer">
                         <div className={styles.card}>
-                            <Image src="/logos_serveis/docs.png" alt='Logo Docs' height='70' width='70' />
+                            <Image src="/logos_serveis/docs.png" alt='Logo Docs' height='160' width='80' />
                             <h2>Docs &rarr;</h2>
                         </div>
                     </a>
