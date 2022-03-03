@@ -20,8 +20,8 @@ export default function Kahoot() {
                 <div className={styles.grid}>
                     <a href='kahoot/guide?id=devtest' rel="noreferrer">
                         <div className={styles.card}>
-                            <h2>Titol</h2>
-                            <h4>Descripció</h4>
+                            <h2>Crear un Kahoot</h2>
+                            <h4>Comença a fer servir Kahoot</h4>
                         </div>
                     </a>
                     <a href='google/docs' rel="noreferrer">
