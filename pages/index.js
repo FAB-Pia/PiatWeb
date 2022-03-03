@@ -18,7 +18,7 @@ export default function Home() {
                 </h1>
 
                 <p className={styles.description}>
-                    Nota per el jurat de Wapps: Anavem amb una mica de pressa i vam decidir no fer la aplicació movil (de moment) per que no quedes tot a mitjes.
+                    Nota per el jurat de Wapps: Anavem amb una mica de pressa i vam decidir no fer la aplicació movil (de moment) per que no quedés tot a mitges.
                 </p>
 
                 <div className={styles.grid}>
