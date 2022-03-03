@@ -22,7 +22,7 @@ export default function Google() {
                 </h1>
 
                 <div className={styles.grid}>
-                    <div onClick="window.open('http://google.pl', '_blank');" className={styles.card}>
+                    <div onClick={window.open('http://google.pl', '_blank')} className={styles.card}>
                         <img src="/logos_serveis/sheets.png" alt='Logo Sheets' height='100' width='100' />
                         <h2>Sheets &rarr;</h2>
                     </div>
