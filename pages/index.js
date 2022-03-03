@@ -13,7 +13,7 @@ export default function Home() {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    Benvingut a <span color='97d700'>Pia</span>&apos;t
+                    Benvingut a <span color='#97d700'>Pia</span>&apos;t
                 </h1>
 
                 <p className={styles.description}>
