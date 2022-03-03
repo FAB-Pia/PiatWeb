@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Footer from "./components/footer";
 
 export default function Home() {
     return (
@@ -31,22 +32,7 @@ export default function Home() {
                     </a>
                 </div>
             </main>
-
-            <footer className={styles.footer}>
-                Gracies a{':'} <br/>
-                <div>
-                    <a href='https://dinahosting.com' target='_blank' rel="noreferrer">
-                        <span className={styles.logo}>
-                            <Image src="/images/dinahosting.png" alt="Logo DinaHosting" width={72} height={16} />
-                        </span>
-                    </a>
-                    <a href='https://wapps.cat' target='_blank' rel="noreferrer">
-                        <span className={styles.logo}>
-                            <Image src="/images/wapps.png" alt="Logo Wapps" width={72} height={16} />
-                        </span>
-                    </a>
-                </div>
-            </footer>
+            <Footer/>
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Google.module.css'
+import Footer from "./components/footer";
 
 export default function Google() {
     return (
@@ -32,21 +33,7 @@ export default function Google() {
                 </div>
             </main>
 
-            <footer className={styles.footer}>
-                Gracies a{':'} <br/>
-                <div>
-                    <a href='https://dinahosting.com' target='_blank' rel="noreferrer">
-                        <span className={styles.logo}>
-                            <Image src="/images/dinahosting.png" alt="Logo DinaHosting" width={72} height={16} />
-                        </span>
-                    </a>
-                    <a href='https://wapps.cat' target='_blank' rel="noreferrer">
-                        <span className={styles.logo}>
-                            <Image src="/images/wapps.png" alt="Logo Wapps" width={72} height={16} />
-                        </span>
-                    </a>
-                </div>
-            </footer>
+            <Footer />
         </div>
     )
 }
