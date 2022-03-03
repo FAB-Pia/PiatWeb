@@ -14,7 +14,7 @@ export default function Kahoot() {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    Google
+                    Kahoot
                 </h1>
 
                 <div className={styles.grid}>
