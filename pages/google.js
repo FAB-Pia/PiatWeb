@@ -2,6 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Google.module.css'
 
+function openInNewTab(url) {
+    url = 'https://' + url;
+    window.open(url, '_blank').focus()
+}
+
 export default function Google() {
     return (
         <div className={styles.container}>
@@ -17,11 +22,11 @@ export default function Google() {
                 </h1>
 
                 <div className={styles.grid}>
-                    <div onClick={window.open('https://nextjs.org/docs', '_blank').focus()} className={styles.card}>
+                    <div onClick='openInNewTab("example.com")' className={styles.card}>
                         <img src="/logos_serveis/sheets.png" alt='Logo Sheets' height='100' width='100' />
                         <h2>Sheets &rarr;</h2>
                     </div>
-                    <div onClick={window.open('https://nextjs.org/docs', '_blank').focus()} className={styles.card}>
+                    <div onClick='openInNewTab("example.com")' className={styles.card}>
                         <img src="/logos_serveis/docs.png" alt='Logo Docs' height='70' width='70' />
                         <h2>Docs &rarr;</h2>
                     </div>
