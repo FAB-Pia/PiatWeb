@@ -111,7 +111,7 @@ export default function KahootCreate() {
                         }
                     }
                 })}
-                {document.getElementById('guideContainer').innerHTML = guideHTML}
+                {document.onload = document.getElementById('guideContainer').innerHTML = guideHTML}
             </main>
 
             <Footer />
