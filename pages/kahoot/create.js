@@ -80,6 +80,7 @@ const guide = {
     ]
 
 }
+let guideHTML = "";
 
 export default function KahootCreate() {
     return(
@@ -96,16 +97,16 @@ export default function KahootCreate() {
                 </h1>
                 {guide.body.forEach(item => {
                     if (item.type === 'image') {
-                        <Image src={item.location} width='auto' height='auto' />
+                        guideHTML = guideHTML + "<Image src='" + item.location + " width='auto' height='auto' />"
                     }
 
                     if (item.type === 'text') {
                         item.text.forEach(textie => {
-                            textie
+                            guideHTML = guideHTML + textie;
                         });
 
                         if (item.newline === 1) {
-                            <br />
+                            guideHTML = guideHTML + "<br />"
                         }
                     }
                 })}
