@@ -17,8 +17,7 @@ export default function Home() {
                 </h1>
 
                 <p className={styles.description}>
-                    Get started by editing{' '}
-                    <code className={styles.code}>pages/index.js</code>
+                    Nota per el jurat de Wapps: Anavem amb una mica de pressa i vam decidir no fer la aplicació movil (de moment) per que no quedes tot a mitjes.
                 </p>
 
                 <div className={styles.grid}>
