@@ -16,7 +16,9 @@ export default function Home() {
                     <span className={styles.text_color_blue}>Benvingut a </span><span className={styles.text_color_green}>Pia</span><span className={styles.text_color_blue}>&apos;t</span>
                 </h1>
 
-
+                <p className={styles.description}>
+                    La teva porta al mon digital de l&apos;Escola Pia
+                </p>
 
                 <div className={styles.grid}>
                     <a href="google" className={styles.card}>
