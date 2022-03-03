@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Google.module.css'
-import Footer from "./components/footer";
+import styles from '../../styles/Google.module.css'
+import Footer from "../components/footer";
 
 export default function Google() {
     return (

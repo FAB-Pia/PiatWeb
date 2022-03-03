@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../../styles/Kahoot.module.css'
 import Footer from "../components/footer";
 
-export default function Index() {
+export default function Kahoot() {
     return (
         <div className={styles.container}>
             <Head>

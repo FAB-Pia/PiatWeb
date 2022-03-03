@@ -22,12 +22,12 @@ export default function Home() {
 
                 <div className={styles.grid}>
                     <a href="google" className={styles.card}>
-                        <img src="/logos_serveis/google.png" alt='Logo Google' height='100' width='100' />
+                        <img src="/logos_serveis/google.png" alt='Logo Index' height='100' width='100' />
                         <h2>Google &rarr;</h2>
                     </a>
                     <a href="kahoot" className={styles.card}>
                         <img src="/logos_serveis/kahoot.png" alt='Logo Index' height='100' width='100' />
-                        <h2>Index &rarr;</h2>
+                        <h2>Kahoot &rarr;</h2>
                     </a>
                 </div>
             </main>
