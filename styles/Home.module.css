@@ -29,12 +29,8 @@
 }
 
 .header {
-  display: flex;
-  flex: 1;
   padding: 0 0;
   border-top: 1px solid #eaeaea;
-  justify-content: left;
-  align-items: center;
 }
 
 .header a {
