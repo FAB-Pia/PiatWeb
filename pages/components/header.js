@@ -1,10 +1,10 @@
 import styles from "../../styles/Home.module.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import fastyles from '@fortawesome/fontawesome-free/css/all.css'
 
 export default function Header() {
     return(
         <header className={styles.header}>
-            <strong><FontAwesomeIcon icon="fa-solid fa-arrow-left" /><FontAwesomeIcon icon="fa-solid fa-house" /></strong>
+            <strong><i className={fastyles.faArrowLeft} /><i className={fastyles.faHouse} /></strong>
         </header>
     )
 }
