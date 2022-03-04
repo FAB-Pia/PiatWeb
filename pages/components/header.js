@@ -4,7 +4,7 @@ import fastyles from '@fortawesome/fontawesome-free/css/all.css'
 export default function Header() {
     return(
         <header className={styles.header}>
-            <strong><i className='fa-solid fa-arrow-left' /><i className={fastyles.faHouse} /></strong>
+            <strong><i className='fa-solid fa-arrow-left' /><i className='fa-solid fa-house' /></strong>
         </header>
     )
 }
