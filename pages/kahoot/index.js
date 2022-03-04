@@ -13,7 +13,7 @@ export default function Kahoot() {
             </Head>
 
             <main className={styles.main}>
-                <Header/>
+                <Header />
                 <h1 className={styles.title}>
                     Kahoot
                 </h1>
