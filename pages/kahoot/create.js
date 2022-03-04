@@ -115,7 +115,7 @@ export default function KahootCreate() {
                 <h1 className={styles.title}>
                     {guide.title.text}
                 </h1>
-                <div id='guideContainer'></div>
+                <div id='guideContainer'/>
 
             </main>
 
