@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import styles from '../../../styles/Kahoot.module.css'
-import Footer from "../../components/footer";
-import Header from "../../components/header";
+import styles from '../../../../styles/Kahoot.module.css'
+import Footer from "../../../components/footer";
+import Header from "../../../components/header";
 
 export default function GoogleGmail() {
     return (
