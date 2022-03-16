@@ -12,8 +12,9 @@ export default function Kahoot() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
+            <Header />
+
             <main className={styles.main}>
-                <Header />
                 <h1 className={styles.title}>
                     Kahoot
                 </h1>
