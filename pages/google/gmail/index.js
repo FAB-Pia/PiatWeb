@@ -20,10 +20,10 @@ export default function GoogleGmail() {
                 </h1>
 
                 <div className={styles.grid}>
-                    <a href='google/gmail/login' rel="noreferrer">
+                    <a href='gmail/login' rel="noreferrer">
                         <div className={styles.card}>
-                            <h2>Crear un Compte i Iniciar Sessió</h2>
-                            <h4>Prepara Kahoot per fer-lo servir</h4>
+                            <h2>Obrir i Iniciar Sessió</h2>
+                            <h4>Prepara Gmail per fer-lo servir</h4>
                         </div>
                     </a>
                     <a href='kahoot/create' rel="noreferrer">
