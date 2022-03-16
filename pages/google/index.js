@@ -33,6 +33,12 @@ export default function Google() {
                             <h2>Docs &rarr;</h2>
                         </div>
                     </a>
+                    <a href='google/sheets' rel="noreferrer">
+                        <div className={styles.card}>
+                            <Image src="/logos_serveis/sheets.png" alt='Logo Sheets' height='100' width='100' />
+                            <h2>Sheets &rarr;</h2>
+                        </div>
+                    </a>
                 </div>
             </main>
 
