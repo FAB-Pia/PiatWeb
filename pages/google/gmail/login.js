@@ -1,8 +1,8 @@
-import styles from "../../styles/Kahoot.module.css";
-import Head from "next/head";
-import Footer from "../components/footer";
+import Head from 'next/head'
+import styles from '../../../styles/Google.module.css'
+import Footer from "../../components/footer";
+import Header from "../../components/header";
 import {useEffect} from "react";
-import Header from "../components/header";
 
 const guide = {
     "title": "Com accedir-hi",
