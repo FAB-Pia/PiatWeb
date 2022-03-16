@@ -21,10 +21,10 @@ export default function Google() {
                 </h1>
 
                 <div className={styles.grid}>
-                    <a href='google/sheets' rel="noreferrer">
+                    <a href='google/gmail' rel="noreferrer">
                         <div className={styles.card}>
-                            <Image src="/logos_serveis/sheets.png" alt='Logo Sheets' height='100' width='100' />
-                            <h2>Sheets &rarr;</h2>
+                            <Image src="/logos_serveis/gmail.png" alt='Logo Gmail' height='100' width='100' />
+                            <h2>Gmail &rarr;</h2>
                         </div>
                     </a>
                     <a href='google/docs' rel="noreferrer">
