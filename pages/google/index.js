@@ -45,6 +45,18 @@ export default function Google() {
                             <h2>Slides &rarr;</h2>
                         </div>
                     </a>
+                    <a href='google/drive' rel="noreferrer">
+                        <div className={styles.card}>
+                            <Image src="/logos_serveis/drive.png" alt='Logo Drive' height='100' width='100' />
+                            <h2>Drive &rarr;</h2>
+                        </div>
+                    </a>
+                    <a href='google/forms' rel="noreferrer">
+                        <div className={styles.card}>
+                            <Image src="/logos_serveis/forms.png" alt='Logo Forms' height='100' width='100' />
+                            <h2>Forms &rarr;</h2>
+                        </div>
+                    </a>
                 </div>
             </main>
 
