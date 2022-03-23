@@ -19,7 +19,7 @@ const guide = {
             },
             {
                 "type":"text",
-                "text":["El gràfic ja està creat. Si voleu saber més sobre com editar-lo un cop fet, us deixem aquest vídeo: https://www.youtube.com/watch?v=siy-pgW23hU"],
+                "text":["El gràfic ja està creat. Si voleu saber més sobre com editar-lo un cop fet, us deixem un vídeo ----> <a href='https://www.youtube.com/watch?v=siy-pgW23hU'>aqui</a> <----"],
                 "newline":1
             }
         ]
