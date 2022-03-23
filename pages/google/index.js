@@ -39,12 +39,6 @@ export default function Google() {
                             <h2>Sheets &rarr;</h2>
                         </div>
                     </a>
-                    <a href='google/slides' rel="noreferrer">
-                        <div className={styles.card}>
-                            <Image src="/logos_serveis/slides.png" alt='Logo Slides' height='100' width='100' />
-                            <h2>Slides &rarr;</h2>
-                        </div>
-                    </a>
                     <a href='google/drive' rel="noreferrer">
                         <div className={styles.card}>
                             <Image src="/logos_serveis/drive.png" alt='Logo Drive' height='100' width='100' />
