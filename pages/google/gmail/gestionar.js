@@ -64,12 +64,7 @@ const guide = {
             } ,
             {
                 "type":"text",
-                "text":["Al Mail hi ha una última opció, les etiquetes. És bastant complexa i només útil per a gent molt ordenada. Si voleu saber més, aquí us deixem l’enllaç d’un vídeo explicatiu:"],
-                "newline": 1
-            } ,
-            {
-                "type":"text",
-                "text":["https://www.youtube.com/watch?v=K4NxiwquhKQ"],
+                "text":["Al Mail hi ha una última opció, les etiquetes. És bastant complexa i només útil per a gent molt ordenada. Si voleu saber més, us deixem l’enllaç d’un vídeo explicatiu <a href='https://www.youtube.com/watch?v=K4NxiwquhKQ'>aqui</a>"],
                 "newline": 1
             }
         ]
