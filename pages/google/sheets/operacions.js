@@ -15,7 +15,7 @@ const guide = {
             },
             {
                 "type":"image",
-                "location":"/images/google/excel/excel2.png"
+                "location":"/images/google/sheets/excel2.png"
             },
             {
                 "type":"text",
