@@ -1,8 +1,8 @@
-import styles from "../../styles/Kahoot.module.css";
+import styles from "../../../styles/Kahoot.module.css";
 import Head from "next/head";
-import Footer from "../components/footer";
+import Footer from "../../components/footer";
 import {useEffect} from "react";
-import Header from "../components/header";
+import Header from "../../components/header";
 
 const guide = {
     "title":"Gràfics",
@@ -26,7 +26,7 @@ const guide = {
 };
 let guideHTML = "";
 
-export default function KahootCreate() {
+export default function GoogleSheetsGraph() {
     useEffect(() => {
         guide.body.forEach(item => {
             if (item.type === 'image') {
