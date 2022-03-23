@@ -24,7 +24,7 @@ const guide = {
             },
             {
                 "type":"image",
-                "location":"/images/google/docs/docs2.png"
+                "location":"/images/google/docs/docs2.jpg"
             },
             {
                 "type":"text",
