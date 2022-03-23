@@ -10,7 +10,7 @@ const guide = {
         [
             {
                 "type":"image",
-                "location":"/images/google/excel/excel1.png"
+                "location":"/images/google/sheets/excel1.png"
             },
             {
                 "type":"text",
