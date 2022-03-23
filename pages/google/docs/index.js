@@ -3,7 +3,7 @@ import styles from '../../../styles/Google.module.css'
 import Footer from "../../components/footer";
 import Header from "../../components/header";
 
-export default function GoogleGmail() {
+export default function GoogleDocs() {
     return (
         <div className={styles.container}>
             <Head>
