@@ -90,8 +90,8 @@ export default function GoogleGmailRedactar() {
                     guideHTML = guideHTML + textie + ' ';
                 });
 
-                for (var i = 0; item.newline < i; i++) {
-                    guideHTML = guideHTML + "\n"
+                for (let i = 0; item.newline < i; i++) {
+                    guideHTML = guideHTML + "<br />"
                 }
             }
         })
