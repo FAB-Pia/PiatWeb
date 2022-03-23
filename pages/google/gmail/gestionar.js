@@ -41,27 +41,27 @@ const guide = {
                 "type":"text",
                 "text":["El cinquè, marcar-los o desmarcar-los com a llegits."],
                 "newline": 1
-            } ,
+            },
             {
                 "type":"text",
                 "text":["El sisè i el setè no són gens importants, només per a treball."],
                 "newline": 1
-            } ,
+            },
             {
                 "type":"text",
                 "text":["El vuitè els mou a altres safates."],
                 "newline": 1
-            } ,
+            },
             {
                 "type":"text",
                 "text":["El novè, afegir-li etiquetes."],
                 "newline": 1
-            } ,
+            },
             {
                 "type":"text",
-                "text":["I el desè, més opcions"],
+                "text":["I el desè, més opcions."],
                 "newline": 1
-            } ,
+            },
             {
                 "type":"text",
                 "text":["Al Mail hi ha una última opció, les etiquetes. És bastant complexa i només útil per a gent molt ordenada. Si voleu saber més, us deixem l’enllaç d’un vídeo explicatiu ----> <a href='https://www.youtube.com/watch?v=K4NxiwquhKQ'>aqui</a> <----"],
