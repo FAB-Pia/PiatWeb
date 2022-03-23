@@ -26,10 +26,16 @@ export default function GoogleGmail() {
                             <h4>Prepara Gmail per fer-lo servir</h4>
                         </div>
                     </a>
-                    <a href='kahoot/create' rel="noreferrer">
+                    <a href='gmail/redactar' rel="noreferrer">
                         <div className={styles.card}>
-                            <h2>Crear un Kahoot</h2>
-                            <h4>Comença a fer servir Kahoot</h4>
+                            <h2>Redactar un Correu</h2>
+                            <h4>Redacta un correu i coloca enllaços</h4>
+                        </div>
+                    </a>
+                    <a href='gmail/gestionar' rel="noreferrer">
+                        <div className={styles.card}>
+                            <h2>Gestionar els Correus</h2>
+                            <h4>Gestiona els correus i altres funcions</h4>
                         </div>
                     </a>
                 </div>
