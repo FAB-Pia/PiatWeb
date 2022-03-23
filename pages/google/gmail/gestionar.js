@@ -91,7 +91,7 @@ export default function GoogleGmailRedactar() {
                 });
 
                 for (var i = 0; item.newline < i; i++) {
-                    guideHTML = guideHTML + '<br />'
+                    guideHTML = guideHTML + "\n"
                 }
             }
         })
