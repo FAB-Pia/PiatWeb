@@ -15,7 +15,7 @@ const guide = {
             } ,
             {
                 "type":"image",
-                "location":"images/google/gmail/Gmail foto.png"
+                "location":"images/google/gmail/gmailfoto.png"
             },
             {
                 "type":"text",
