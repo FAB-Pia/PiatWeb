@@ -16,7 +16,7 @@ export default function GoogleDocs() {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    Gmail
+                    Docs
                 </h1>
 
                 <div className={styles.grid}>
