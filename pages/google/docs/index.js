@@ -20,7 +20,7 @@ export default function GoogleDocs() {
                 </h1>
 
                 <div className={styles.grid}>
-                    <a href='docs/entrar' rel="noreferrer">
+                    <a href='docs/crear' rel="noreferrer">
                         <div className={styles.card}>
                             <h2>Entrar i Utilitzar-lo</h2>
                             <h4>Com entrar i totes les seves funcions</h4>
